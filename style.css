@@ -67,3 +67,86 @@ button:hover {
   padding: 40px 0;
   color: #666;
 }
+
+/* board */
+.board-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  border: 1px solid #333;
+  color: #eee;
+  background: #151515;
+  cursor: pointer;
+}
+
+.btn.primary {
+  border: none;
+  background: #ca0000;
+  color: #fff;
+}
+
+.btn.small {
+  padding: 6px 10px;
+  font-size: 12px;
+  border-radius: 7px;
+}
+
+.board-form {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.board-form input,
+.board-form textarea {
+  width: 100%;
+  padding: 12px 12px;
+  border-radius: 10px;
+  border: 1px solid #2b2b2b;
+  background: #111;
+  color: #eee;
+  outline: none;
+}
+
+.board-list {
+  list-style: none;
+  display: grid;
+  gap: 12px;
+}
+
+.board-item {
+  border: 1px solid #2b2b2b;
+  background: #111;
+  border-radius: 12px;
+  padding: 14px;
+}
+
+.board-item-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.board-item p {
+  color: #cfcfcf;
+  margin-bottom: 10px;
+}
+
+.board-meta {
+  font-size: 12px;
+  color: #888;
+}
